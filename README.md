@@ -3,7 +3,7 @@
 <br>
 
 ## ⚒️ 아키텍쳐
-![fian_diagram](https://github.com/cs-devops-bootcamp/devops-04-Final-Team2/assets/126468493/1810e67b-7339-4ee7-b6b8-ba21218f0ecc)<br>
+![diagram](https://github.com/ki1111m2/mrmrthon/assets/126464763/18e2da98-ef46-49a6-b47e-b5f1a0b7a631)<br>
 > 1. 개발자가 새로운 버전을 릴리즈하면 Github Action을 통해 자동화가되어 진행됩니다. S3에 정적 웹페이지 파일 업로드, ECR 이미지 Push, 새 태스크 정의 생성, ECS 서비스 업데이트, 람다 함수 배포가 포함됩니다.
 > 2. 각 서비스의 CloudWatch지표를 매트릭으로하여 Grafana Dashboard에 표시됩니다.
 > 3. 사용자가 Roue53을 통해 도메인으로 접속하면 CloudFront를 통해 S3에 업로드된 정적 웹페이지가 나타납니다.
@@ -49,7 +49,7 @@
 >    - 대회별 참가자들의 점수 추가
 >    - 새로운 마라톤 생성, 마라톤 수정, 마라톤 삭제
 > 4. **테이블 별 주요 기능**<br>
->  ![20230627_093610](https://github.com/cs-devops-bootcamp/devops-04-Final-Team2/assets/126468493/550c102c-ef78-4540-9b2a-b4ef0ea80e10)<br>
+>  ![249001653-550c102c-ef78-4540-9b2a-b4ef0ea80e10](https://github.com/ki1111m2/mrmrthon/assets/126464763/eea86077-d0c5-4b4a-b3f8-d409adcdf6aa)<br>
 > 5. **CI/CD**
 >    - GitHub Action을 통해 ECR,ECS,Lambda 자동화
 > 6. **모니터링**
